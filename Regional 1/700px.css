@@ -1,0 +1,35 @@
+@media (max-width: 700px) {
+  .navbar {
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 0;
+    right: 0;
+    text-align: center;
+    left: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+    padding: 14px;
+  }
+
+  .contenu .imgcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .contenu .imgcont .first {
+    width: calc(98%);
+    padding: 8px;
+  }
+}

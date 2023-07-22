@@ -1,0 +1,117 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+body {
+  font-family: Poppins;
+}
+
+header {
+  display: flex;
+}
+
+header h1 {
+  font-family: sans-serif;
+  color: blue;
+}
+
+.nav {
+  background-color: black;
+  padding: 1%;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin-top: 1%;
+}
+
+.nav ul li {
+  margin-left: 24px;
+}
+
+.nav ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(221, 221, 221);
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  transition: 0.4s;
+  color: rgb(104, 24, 231);
+  text-decoration: underline;
+}
+
+#articles {
+  margin-top: 4%;
+  border: solid 2px black;
+  border-radius: 10px;
+  margin-left: 7%;
+  padding: 2%;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bolder;
+  transform: scale(1.2);
+}
+
+#articles input {
+  width: 100%;
+}
+
+#articles input:focus {
+  background-color: blue;
+  color: white;
+}
+
+#articles button {
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: black;
+  width: 100%;
+  color: aliceblue;
+  margin-bottom: 4%;
+  padding: 4%;
+}
+
+footer {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  bottom: 0;
+  padding: 1%;
+}
+
+footer a {
+  margin-right: 2%;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#articles button:hover {
+  transition: 0.4s;
+  border: solid 2px red;
+  border-radius: 20px;
+  background-color: rgb(223, 223, 223);
+}
+
+@media (max-width: 800px) {
+  footer {
+    position: unset;
+    background-color: black;
+    width: 100%;
+    padding: 1%;
+  }
+
+  #articles {
+    margin-left: 0;
+    padding: 2%;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bolder;
+    transform: scale(1);
+  }
+}

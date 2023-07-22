@@ -1,0 +1,95 @@
+@font-face {
+  font-family: pop;
+  src: url(rsc/pop.ttf);
+}
+
+* {
+  font-family: pop;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  position: relative;
+  text-align: left;
+  padding: 2%;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.head span {
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: rgb(128, 0, 64);
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 1%;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 14px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    padding: 14px;
+}
+
+.navbar a:hover{
+    color: blue;
+    background-color: gray;
+    transition: 1s;
+}
+
+.contenu{
+    padding: 28px;
+}
+.contenu h1{
+    text-transform: uppercase;
+}
+
+.contenu .imgcont{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.contenu .imgcont .first{
+    width: calc(98%/2);
+    padding: 8px;
+}
+
+.contenu .imgcont .first img{
+    border: solid 1px black;
+}
+
+
+.foot{
+    background-color: rgb(60, 60, 151);
+    color: white;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 18px;
+}
+
+.foot a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}

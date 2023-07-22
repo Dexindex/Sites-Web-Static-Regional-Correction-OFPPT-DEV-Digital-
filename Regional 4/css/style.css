@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: Poppins;
+}
+
+header{
+    background-color: dodgerblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    font-size: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    border-right: solid 2px white;
+    padding-right: 10px;
+
+
+}
+
+.ttl{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.art1{
+    width: 80%;
+    margin-left: 10%;
+    border: solid 2px black;
+}
+
+form{
+    padding: 2%;
+    position: relative;
+}
+#ok{
+    position: absolute;
+    right: 4%;
+    top: 30%;
+}
+
+.cv{
+    background-color: mediumspringgreen;
+    padding: 2%;
+    margin: 4%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.cv:hover{
+    cursor: pointer;
+    transition: .7s;
+    rotate: 180deg;
+    background-color: rgb(157, 178, 43);
+}
+
+.two{
+    display: flex;
+}
+
+.art2{
+    width: 50%;
+    border: solid 2px black;
+    position: relative;
+}
+
+.link{
+    position: absolute;
+    right: 1%;
+    bottom: 2%;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.art3{
+    width: 50%;
+    border: solid 2px black;
+    position: relative;
+}
+
+.art3 tr{
+    border-bottom: solid 2px black;
+}
+
+.art3 table{
+    width: 100%;
+}
